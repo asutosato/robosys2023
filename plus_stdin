@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Asuto Sato ast1639st@gmail.com
 import sys
 
 ans = 0
