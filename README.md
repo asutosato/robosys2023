@@ -2,11 +2,11 @@
 ロボットシステム学の練習リポジトリ
 
 # plusコマンド
-![test](https://github.com/asutosato/robosys2023/actions/workflows/text.yml/badge.svg)
+[![test](https://github.com/asutosato/robosys2023/actions/workflows/text.yml/badge.svg)](https://github.com/asutosato/robosys2023/actions/workflows/text.yml)
 
 標準入力から読み込んだ数字を足す。
 
-## 使い方
+## 使方
 
 
 ## 必要なソフトウェア
