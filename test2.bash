@@ -11,16 +11,16 @@ ng () {
 res=0
 
   ### I/O TEST ###
-  out=$(seq 5 | ./plus)
+  out=$(seq 5 | ./minus)
 
-  [ "${out}" = 15 ] || ng ${LINENO}
+  [ "${out}" = -15 ] || ng ${LINENO}
 
   ### STRANGE INPUT ###
-  out=$(echo あ | ./plus)
+  out=$(echo あ | ./minus)
   [ "$?" = 1 ]      || ng ${LINENO}
   [ "${out}" = "" ] || ng ${LINENO}
 
-  out=$(echo | ./plus)
+  out=$(echo | ./minus)
   [ "$?" = 1 ]      || ng ${LINENO}
   [ "${out}" = "" ] || ng ${LINENO}
 
