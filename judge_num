@@ -3,10 +3,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-a = sys.argv[1]
-n = int(a) % 2
+#num = sys.argv[1]
+num = input()
+judge = int(num) % 2
 
-if n == 0:
-    print(str(a) + "は偶数")
+if judge == 0:
+    print(str(num) + "は偶数")
 else:
-    print(str(a) + "は奇数")
+    print(str(num) + "は奇数")
