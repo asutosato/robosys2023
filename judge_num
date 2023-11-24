@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Asuto Sato ast1639st@gmail.com
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
+
+a = sys.argv[1]
+n = int(a) % 2
+
+if n == 0:
+    print(str(a) + "は偶数")
+else:
+    print(str(a) + "は奇数")
