@@ -1,7 +1,7 @@
 # robosys2023
 ロボットシステム学の練習リポジトリ
 
-##コマンド
+## コマンド
 ### plus
 [![test](https://github.com/asutosato/robosys2023/actions/workflows/text.yml/badge.svg)](https://github.com/asutosato/robosys2023/actions/workflows/text.yml)
 
@@ -14,10 +14,6 @@
 ### average
 
 標準入力から読み込んだ数値の平均を求める。
-
-## 使い方
-コマンドと計算する数字を入力する。
-数字の入力はリダイレクトでファイルから入力することもできる。
 
 ## 必要なソフトウェア
 * Python
