@@ -3,7 +3,7 @@
 
 ## コマンド
 ### plus
-[![test](https://github.com/asutosato/robosys2023/actions/workflows/text.yml/badge.svg)](https://github.com/asutosato/robosys2023/actions/workflows/text.yml)
+[![test](https://github.com/asutosato/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/asutosato/robosys2023/actions/workflows/test.yml)
 
 標準入力から読み込んだ数値を足す。
 
@@ -26,7 +26,8 @@ seqコマンドで出力された1から5を足し合わせた結果が出力さ
 $ cat nums | ./plus
   26
 ```
-catコマンドを用いてファイル内の数字を足し合わせて出力する。
+catコマンドを用いてファイル内の数字を足し合わせて出力することもできる。
+
 
 ### minus
 
@@ -38,6 +39,7 @@ $ seq 5 | ./minus
   -15
 ```
 seqコマンドで出力された1から5を0から引いていった結果が出力される。
+plusコマンドと同様に、catコマンドを用いてファイル内の数字を0から引いていき出力することもできる。
 
 
 ### average
@@ -50,6 +52,7 @@ $ seq 5 | ./average
   3.0
 ```
 seqコマンドで出力された1から5の平均値が出力される。
+plusコマンドと同様に、catコマンドを用いてファイル内の数字から平均値を求め出力することもできる。
 
 
 ## 必要なソフトウェア
