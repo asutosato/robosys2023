@@ -1,10 +1,19 @@
 # robosys2023
 ロボットシステム学の練習リポジトリ
 
-# plusコマンド
+##コマンド
+### plus
 [![test](https://github.com/asutosato/robosys2023/actions/workflows/text.yml/badge.svg)](https://github.com/asutosato/robosys2023/actions/workflows/text.yml)
 
-標準入力から読み込んだ数字を足す。
+標準入力から読み込んだ数値を足す。
+
+### minus
+
+標準入力から読み込んだ数値を引く。
+
+### average
+
+標準入力から読み込んだ数値の平均を求める。
 
 ## 使い方
 コマンドと計算する数字を入力する。
