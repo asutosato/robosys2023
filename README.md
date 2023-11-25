@@ -2,8 +2,9 @@
 ロボットシステム学の練習リポジトリ
 
 ## コマンド
+![test](https://github.com/asutosato/robosys2023/actions/workflows/test.yml/badge.svg)
+
 ### plus
-[![test](https://github.com/asutosato/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/asutosato/robosys2023/actions/workflows/test.yml)
 
 標準入力から読み込んだ数値を足す。
 
