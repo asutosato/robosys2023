@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Asuto Sato ast1639st@gmail.com
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
+
+ans = 0
+total = 0
+count = 0
+
+for line in sys.stdin:
+    count += 1
+    try:
+        total += int(line)
+    except:
+        total += float(line)
+
+ans = total / count
+
+print(ans)
