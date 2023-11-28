@@ -10,19 +10,18 @@ ng () {
 
 res=0
 
-  ### I/O TEST ###
-  out=$(seq 5 | ./minus)
+### I/O TEST ###
+out=$(seq 5 | ./minus)
+[ "${out}" = -15 ] || ng ${LINENO}
 
-  [ "${out}" = -15 ] || ng ${LINENO}
+### STRANGE INPUT ###
+out=$(echo あ | ./minus)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
-  ### STRANGE INPUT ###
-  out=$(echo あ | ./minus)
-  [ "$?" = 1 ]      || ng ${LINENO}
-  [ "${out}" = "" ] || ng ${LINENO}
-
-  out=$(echo | ./minus)
-  [ "$?" = 1 ]      || ng ${LINENO}
-  [ "${out}" = "" ] || ng ${LINENO}
+out=$(echo | ./minus)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res

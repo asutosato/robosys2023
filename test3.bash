@@ -10,19 +10,18 @@ ng () {
 
 res=0
 
-  ### I/O TEST ###
-  out=$(seq 5 | ./average)
+### I/O TEST ###
+out=$(seq 5 | ./average)
+[ "${out}" = 3.0 ] || ng ${LINENO}
 
-  [ "${out}" = 3.0 ] || ng ${LINENO}
+### STRANGE INPUT ###
+out=$(echo あ | ./average)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
-  ### STRANGE INPUT ###
-  out=$(echo あ | ./average)
-  [ "$?" = 1 ]      || ng ${LINENO}
-  [ "${out}" = "" ] || ng ${LINENO}
-
-  out=$(echo | ./average)
-  [ "$?" = 1 ]      || ng ${LINENO}
-  [ "${out}" = "" ] || ng ${LINENO}
+out=$(echo | ./average)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res

@@ -1,5 +1,6 @@
 # robosys2023
-ロボットシステム学の練習リポジトリ
+ロボットシステム学の授業で作成したリポジトリです。
+このリポジトリにはplusコマンド、minusコマンド、averageコマンドが含まれます。
 
 ## コマンド
 ![test](https://github.com/asutosato/robosys2023/actions/workflows/test.yml/badge.svg)
@@ -68,6 +69,6 @@ plusコマンドと同様に、catコマンドを用いてファイル内の数�
 ## 著作権
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されます。
 * このパッケージのコードの一部は、下記のスライド(CC-BYSA 4.0 by Ryuiti Ueda)のものを本人の許可を得て自身の著作としたものです。
-   * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+   * [ryuichiueda/my_slides robosys_2022_lesson4](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
 
 ©2023　Asuto Sato
