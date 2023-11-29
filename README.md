@@ -70,6 +70,6 @@ plusコマンドと同様に、catコマンドを用いてファイル内の数�
 ## 著作権
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されます。
 * このパッケージのコードの一部は、下記のスライド(CC-BYSA 4.0 by Ryuiti Ueda)のものを本人の許可を得て自身の著作としたものです。
-   * [ryuichiueda/my_slides robosys_2022_lesson4](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
+   * [ryuichiueda/my_slides/robosys_2022/lesson4](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html#/20)
 
 ©2023　Asuto Sato
